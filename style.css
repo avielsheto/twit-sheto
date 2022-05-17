@@ -1,0 +1,352 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+/* ---left--- nav */
+nav.nav-container {
+  display: flex;
+  height: 45px;
+  border: 2px solid black;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+nav.nav-container .left-nav {
+  display: flex;
+  height: 20px;
+  width: 35%;
+  justify-content: space-evenly;
+}
+
+nav.nav-container ul {
+  display: flex;
+  width: 60%;
+  justify-content: space-evenly;
+  list-style: none;
+
+  font-size: 14px;
+}
+
+/* ---right---nav */
+
+nav.nav-container .right-nav {
+  display: flex;
+  height: 50px;
+  width: 30%;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+nav.nav-container .right-nav .avater-img {
+  height: 40px;
+  border-radius: 50%;
+  position: relative;
+
+}
+
+nav.nav-container .right-nav .search-img {
+  height: 16px;
+  position: relative;
+  right: 75px
+  
+  
+}
+
+nav.nav-container .right-nav button {
+  width: 90px;
+  height: 25px;
+  background-color: #6dc9ff;
+  color: white;
+  border-radius: 10px;
+  border: none;
+}
+
+nav.nav-container .right-nav input {
+  border-radius: 15px;
+  height: 25px;
+  width: 180px;
+  padding: 3px;
+  border: 1px solid silver;
+}
+
+/* strip -1 */
+
+header.header-container {
+  justify-content: center;
+}
+
+header.header-container .head-strip {
+  background-color: #6dc9ff;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+/*--followers---strip--2 */
+
+header.header-container .follow-strip {
+  height: 60px;
+  width: 90%;
+  justify-content: center;
+  justify-content: space-between;
+  display: flex;
+}
+
+/* left-strip */
+header.header-container .follow-strip .left-followers {
+  display: flex;
+  width: 62%;
+  font-size: 10px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+header.header-container .follow-strip .left-followers img {
+  border-radius: 50%;
+  height: 220px;
+  border: 5px solid white;
+}
+/* right-strip */
+header.header-container .follow-strip .right-followers {
+  display: flex;
+  float: right;
+  height: 60px;
+  width: 10%;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+
+header.header-container .follow-strip .right-followers button {
+  width: 70px;
+  height: 30px;
+  border-radius: 15px;
+  color: #6dc9ff;
+  border: 1px solid #6dc9ff;
+  background-color: white;
+}
+
+/*--- main ---  */
+
+/*---left --- part */
+/*--- profile ---  box */
+
+main.main-container {
+  height: 1500px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  background-color: #e5ebee;
+}
+
+main.main-container .profile-container {
+  display: flex;
+  height: 550px;
+  width: 30%;
+  flex-direction: column;
+  justify-content: space-around;
+  position: relative;
+  top: 85px;
+  left: 60px;
+  
+}
+
+main.main-container .profile-container .profile-box h2 {
+  color: silver;
+  font-size: 18px;
+}
+
+main.main-container .profile-container h4 {
+  color: #6dc9ff;
+}
+
+main.main-container .profile-container .pic-album img {
+  height: 40px;
+  border-radius: 50%;
+  
+}
+
+main.main-container .profile-container .pic-album {
+  width: 60%;
+  height: 100px;
+  
+}
+
+main.main-container .profile-container .pic-video img {
+  height: 30px;
+  border-radius: 2px;
+  
+}
+
+main.main-container .profile-container .pic-video {
+  width: 60%;
+  height: 140px;
+  
+}
+
+/*--- center --- part--- */
+/*--- allert --- box --- */
+
+main.main-container .main-allert {
+  padding: 10px;
+}
+
+
+main.main-container .tweets-strip {
+  height: 23px;
+  width: 100%;
+  display: flex;
+  font-size: 10px;
+  border: 1px solid silver;
+  font-size: 12px;
+  font-weight: 700;
+  background-color: whitesmoke;
+}
+
+main.main-container .tweets-strip ul {
+  display: flex;
+  width: 100%;
+  list-style: none;
+  align-items: center;
+  gap: 20px;
+}
+
+main.main-container .tweets-strip ul li:nth-child(2) {
+  color: #6dc9ff;
+}
+
+main.main-container .tweets-strip ul li:nth-child(3) {
+  color: #6dc9ff;
+}
+
+main.main-container .allert-container {
+  height: 110px;
+  width: 100%;
+  display: flex;
+  font-size: 10px;
+  border: 1px solid silver;
+  font-size: 12px;
+  font-weight: 700;
+  background-color: whitesmoke;
+}
+
+main.main-container .allert-img img {
+  height: 70px;
+  border-radius: 50%;
+  padding: 15px;
+}
+
+main.main-container .allert-img {
+  align-items: center;
+}
+
+main.main-container .allert-box {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+main.main-container .name-box {
+  display: flex;
+  height: 20px;
+  gap: 5px;
+  align-items: center;
+  font-size: 10px;
+}
+main.main-container .name-box h2 {
+  color: silver;
+  font-size: 10px;
+}
+
+main.main-container .allert-box .icons-allert {
+  width: 50%;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/*--- who to follow ---  */
+
+main.main-container .follow-container {
+  height: 300px;
+  width: 25%;
+  background-color: whitesmoke;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+main.main-container .follow-container .follow-request {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  height: 40px;
+  font-size: 20px;
+}
+
+main.main-container .follow-request ul {
+  display: flex;
+  width: 100%;
+  list-style: none;
+  font-weight: 700;
+  gap: 10px;
+}
+
+main.main-container .follow-img img {
+  height: 55px;
+  padding: 5px;
+  border-radius: 50%;
+}
+
+main.main-container .follow-container ul li:nth-child(3) {
+  color: #6dc9ff;
+}
+
+main.main-container .follow-container ul li:nth-child(2) {
+  color: #6dc9ff;
+}
+
+main.main-container .follow-container .name-box {
+  display: flex;
+  flex-direction: column;
+}
+
+main.main-container .follow-container .follow-box button {
+  width: 80px;
+  height: 24px;
+  border-radius: 15px;
+  color: #6dc9ff;
+  border: 1px solid #6dc9ff;
+  background-color: #e5ebee;
+  font-weight: 600;
+}
+
+main.main-container .follow-container .profile-follow {
+  display: flex;
+  height: 90px;
+  border-top: 1px solid silver;
+  align-items: center;
+}
+
+main.main-container .follow-container .profile-follow .follow-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+main.main-container .follow-container .profile-follow .follow-box .who-to-box {
+  display: flex;
+  font-size: 10px;
+  align-items: center;
+}
